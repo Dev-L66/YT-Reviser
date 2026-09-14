@@ -15,7 +15,7 @@ for segment in result["segments"]:
      "text":segment["text"]
     })
 
-with open("transcript.json", "w", encoding="utf-8") as f:
+with open("transcripts/transcript.json", "w", encoding="utf-8") as f:
     json.dump(transcript, f, ensure_ascii=False, indent=2)
 
 print("Transcript saved!")
