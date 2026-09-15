@@ -1,0 +1,1337 @@
+[
+  {
+    "start": 14.16,
+    "end": 18.240000000000002,
+    "text": " that's your opinion and it's her opinion but it's not my opinion. And you know my favorite"
+  },
+  {
+    "start": 18.240000000000002,
+    "end": 23.84,
+    "text": " quote? Without data you are just another person with an opinion. So at the end you are getting"
+  },
+  {
+    "start": 23.84,
+    "end": 29.52,
+    "text": " a Rodmap from one person in one country working in multiple companies for many years but this is"
+  },
+  {
+    "start": 29.52,
+    "end": 33.44,
+    "text": " not enough because you might waste a lot of money and time on it. That's why I thought the best"
+  },
+  {
+    "start": 33.44,
+    "end": 38.8,
+    "text": " way is actually to find out what the job market is now searching for. And for that we need a lot of"
+  },
+  {
+    "start": 38.8,
+    "end": 43.92,
+    "text": " data. That's why you know me and that engineer I have built a data machine like a data warehouse"
+  },
+  {
+    "start": 43.92,
+    "end": 49.6,
+    "text": " with the pipeline. This machine extracts the data every day. It goes and collect every data job"
+  },
+  {
+    "start": 49.6,
+    "end": 54.8,
+    "text": " that it can find and not only that after that in the pipeline it goes and clean up the data. This"
+  },
+  {
+    "start": 54.8,
+    "end": 59.919999999999995,
+    "text": " takes me a lot of time to clean up all the duplicates, the spam, the dead jobs, the noises,"
+  },
+  {
+    "start": 59.919999999999995,
+    "end": 65.84,
+    "text": " everything out. And the result is amazing. Instead of looking at only 10 ads now we are talking"
+  },
+  {
+    "start": 65.84,
+    "end": 75.2,
+    "text": " about over 22,000 real data job ads from more than 4,000 companies in almost 100 countries. And around"
+  },
+  {
+    "start": 75.2,
+    "end": 80.47999999999999,
+    "text": " 3,000 of them are actually searching for data engineers. So the data get extracted, cleaned up and"
+  },
+  {
+    "start": 80.56,
+    "end": 84.88000000000001,
+    "text": " after that what we do we have to analyze it. That's why together with the Claude and AI agents"
+  },
+  {
+    "start": 84.88000000000001,
+    "end": 90.16,
+    "text": " we analyze the data with one question what do companies actually want from a data engineer."
+  },
+  {
+    "start": 90.16,
+    "end": 94.16,
+    "text": " So in this video I'm going to share everything that I found, the skills that companies that are"
+  },
+  {
+    "start": 94.16,
+    "end": 100.0,
+    "text": " expecting from you as a data engineer, the tools, the platforms, the salary, the real tasks,"
+  },
+  {
+    "start": 100.0,
+    "end": 105.04,
+    "text": " and as well very important what are the AI skills now companies are requesting from you as a data"
+  },
+  {
+    "start": 105.04,
+    "end": 109.36,
+    "text": " engineer. And at the end of the video we're going to go and put everything together into a roadmap"
+  },
+  {
+    "start": 109.44,
+    "end": 114.32,
+    "text": " based on the job market and of course give you my final opinion and recommendation about this role."
+  },
+  {
+    "start": 114.32,
+    "end": 118.48,
+    "text": " So now my friends let's deep dive and see what actually the data is trying to tell us."
+  },
+  {
+    "start": 121.44,
+    "end": 125.2,
+    "text": " Alright so now let's start with the most important question what are the skills that are"
+  },
+  {
+    "start": 125.2,
+    "end": 130.0,
+    "text": " required from you as a data engineer. And usually we find the answer in the job description."
+  },
+  {
+    "start": 130.0,
+    "end": 133.84,
+    "text": " If you go to the section what we are looking for and there you're going to find multiple"
+  },
+  {
+    "start": 133.84,
+    "end": 138.4,
+    "text": " bullet points and of course they are not random they are sorted by the most important skills at"
+  },
+  {
+    "start": 138.4,
+    "end": 143.6,
+    "text": " the starts and as you go down things can get more optional and nice to have. And of course especially"
+  },
+  {
+    "start": 143.6,
+    "end": 148.72,
+    "text": " for data engineers this list can be really long it can scare a lot of people but don't forget this"
+  },
+  {
+    "start": 148.72,
+    "end": 154.08,
+    "text": " is a wish list this is not a checklist so that you get a feeling about what is expected from you."
+  },
+  {
+    "start": 154.08,
+    "end": 158.08,
+    "text": " No but he can fulfill all those stuff. Now since we have a lot of skills I group them into"
+  },
+  {
+    "start": 158.08,
+    "end": 163.68,
+    "text": " categories and it looks like this almost every single job description of course includes programming."
+  },
+  {
+    "start": 163.68,
+    "end": 168.96,
+    "text": " After that comes groups like the pipeline tools the data platforms the cloud and very small"
+  },
+  {
+    "start": 168.96,
+    "end": 174.08,
+    "text": " percentage it is something that mentioning about AI which really surprised me because now 30%"
+  },
+  {
+    "start": 174.08,
+    "end": 178.96,
+    "text": " of our work is doing things for AI projects and of course don't worry we can add depth into the"
+  },
+  {
+    "start": 178.96,
+    "end": 183.12,
+    "text": " skills of all those categories I just want to give you a feeling now let's start with the first one"
+  },
+  {
+    "start": 183.12,
+    "end": 187.92000000000002,
+    "text": " the programming what do you think what is the number one skill that is required is it python or"
+  },
+  {
+    "start": 188.48,
+    "end": 193.2,
+    "text": " well surprise surprise I got python well to be honest it is very close to each others I'm going to"
+  },
+  {
+    "start": 193.2,
+    "end": 198.64,
+    "text": " say here we have a tie of course as data engineers we have to write our pipelines using python"
+  },
+  {
+    "start": 198.64,
+    "end": 203.83999999999997,
+    "text": " and since we are data engineers that means we have to work with the data and we usually do it using"
+  },
+  {
+    "start": 203.83999999999997,
+    "end": 209.44,
+    "text": " a skill so those are the two top skills that we have nothing to discuss here they are the core of"
+  },
+  {
+    "start": 209.44,
+    "end": 214.72,
+    "text": " that engineering you have to master them everything else could be discussed now since we are talking"
+  },
+  {
+    "start": 214.72,
+    "end": 219.52,
+    "text": " about coding and programming you have to learn techniques about the cicd how to work with the"
+  },
+  {
+    "start": 219.52,
+    "end": 224.88,
+    "text": " gates and as well we have other programming languages like scala java and r we can skip them safely"
+  },
+  {
+    "start": 224.88,
+    "end": 228.48,
+    "text": " all right now moving on to another group this is going to be really interesting because here we have"
+  },
+  {
+    "start": 228.48,
+    "end": 233.6,
+    "text": " the confusion and I'm going to collect the war group we have tools data platforms and cloud"
+  },
+  {
+    "start": 233.6,
+    "end": 238.72,
+    "text": " platforms and as a data engineer we have a lot of things to learn so the big question is what are"
+  },
+  {
+    "start": 238.72,
+    "end": 244.16,
+    "text": " the most mentioned tools and platforms in the job descriptions for data engineers now I'm going to"
+  },
+  {
+    "start": 244.16,
+    "end": 250.0,
+    "text": " show this immediately this is the full list so the number one skill is about spark after that comes"
+  },
+  {
+    "start": 250.0,
+    "end": 255.92,
+    "text": " at a platform data breaks then air flow then snowflake dbt kaf kan so on now you might look at this"
+  },
+  {
+    "start": 255.92,
+    "end": 260.32,
+    "text": " and ask me what I should do with this should I go now from the top to the bottom because it is"
+  },
+  {
+    "start": 260.32,
+    "end": 265.76,
+    "text": " required for me as a data engineer well not so fast the thing is they never come all together inside"
+  },
+  {
+    "start": 265.76,
+    "end": 271.2,
+    "text": " the job description there is a relationship between them so actually there are like stacks of tools"
+  },
+  {
+    "start": 271.2,
+    "end": 276.88,
+    "text": " and platforms that always come together and the core of those tick stacks gonna be the data platform"
+  },
+  {
+    "start": 276.88,
+    "end": 282.71999999999997,
+    "text": " and here we have four we have data breaks snowflake BigQuery and fabric now let's look to the winner"
+  },
+  {
+    "start": 282.71999999999997,
+    "end": 288.24,
+    "text": " the war is very clear it is between data breaks and snowflake then after that comes BigQuery and"
+  },
+  {
+    "start": 288.24,
+    "end": 293.28,
+    "text": " fabric at the end this is totally expected because it is the newest one and I totally expected to see"
+  },
+  {
+    "start": 293.28,
+    "end": 298.24,
+    "text": " data breaks at the start because it is made from engineers to engineers and it used spark so now"
+  },
+  {
+    "start": 298.24,
+    "end": 302.72,
+    "text": " let's go deeper with those two platforms data breaks as snowflake now as I was analyzing the"
+  },
+  {
+    "start": 302.72,
+    "end": 308.32,
+    "text": " data by the country I found there is like some differences between the three big markets USA Europe"
+  },
+  {
+    "start": 308.32,
+    "end": 315.12,
+    "text": " and India in USA actually the snowflake is winning data breaks with a very small percentage but now"
+  },
+  {
+    "start": 315.12,
+    "end": 319.92,
+    "text": " if we look to Europe you can see that data breaks is actually winning there and since I'm in Germany"
+  },
+  {
+    "start": 319.92,
+    "end": 324.24,
+    "text": " and I'm there I can tell you a lot of projects are done here using data breaks and if you look to"
+  },
+  {
+    "start": 324.24,
+    "end": 328.24,
+    "text": " India you can see that data breaks is actually winning with small percentage as well so yeah"
+  },
+  {
+    "start": 328.24,
+    "end": 332.08,
+    "text": " they are very close to each others only in Europe there is clear difference and now as I told you"
+  },
+  {
+    "start": 332.08,
+    "end": 337.12,
+    "text": " there are relationship between tools and platforms and we have the two words so if the ads are asking"
+  },
+  {
+    "start": 337.12,
+    "end": 342.96000000000004,
+    "text": " for data breaks then highly likely they can ask as well for spark and as well for Azure clouds"
+  },
+  {
+    "start": 342.96000000000004,
+    "end": 347.44,
+    "text": " and about the other tools like dbT and air flows they don't come usually with the data breaks because"
+  },
+  {
+    "start": 347.44,
+    "end": 352.24,
+    "text": " on the orchestration we have enough tools and features inside data breaks in order to do that"
+  },
+  {
+    "start": 352.24,
+    "end": 356.96000000000004,
+    "text": " so you don't need to get extra things outside and now here since I mentioned Azure of course"
+  },
+  {
+    "start": 356.96000000000004,
+    "end": 362.56,
+    "text": " you can go and connect the AWS with data breaks it is just those two together comes more often in"
+  },
+  {
+    "start": 362.56,
+    "end": 367.68,
+    "text": " the ads of description than the AWS now let's check the other word the snowflake if the ads of"
+  },
+  {
+    "start": 367.68,
+    "end": 374.32,
+    "text": " description is asking for snowflake then highly likely they can ask you as well for dbt air flow and"
+  },
+  {
+    "start": 374.32,
+    "end": 379.92,
+    "text": " AWS and this of course make total sense because snowflake is a warehouse it stores and runs using"
+  },
+  {
+    "start": 379.92,
+    "end": 384.8,
+    "text": " a scale and that's it it is not a complete platform like the data breaks that's why you need"
+  },
+  {
+    "start": 384.8,
+    "end": 390.40000000000003,
+    "text": " adults you need extra tools a double fits like the adbt for that transformation and the air flow"
+  },
+  {
+    "start": 390.40000000000003,
+    "end": 396.0,
+    "text": " in order to orchestrate the work so if you are learning snowflake then gets ready to learn more tools"
+  },
+  {
+    "start": 396.0,
+    "end": 401.6,
+    "text": " than data breaks and this as well means it is less likely that they can ask you for spark or even"
+  },
+  {
+    "start": 401.6,
+    "end": 406.72,
+    "text": " Azure some of friends those are the two text tags those are the tool boxes if you see data breaks then"
+  },
+  {
+    "start": 406.72,
+    "end": 413.12,
+    "text": " it comes with this spark and Azure if it is snowflake then it brings with it dbt air flow and AWS"
+  },
+  {
+    "start": 413.12,
+    "end": 418.24,
+    "text": " it is shining so hard in Germany but I'm gonna leave it like this so now that means my friend you"
+  },
+  {
+    "start": 418.24,
+    "end": 422.72,
+    "text": " have here a big decision to make we have to decide which text tag you're gonna focus on either"
+  },
+  {
+    "start": 422.72,
+    "end": 428.32000000000005,
+    "text": " you're gonna be focusing on that uprix tag or the snowflake one it makes no sense to learn both of"
+  },
+  {
+    "start": 428.32000000000005,
+    "end": 433.28000000000003,
+    "text": " them and of course switching in your career it can be very simple because at the end they are very"
+  },
+  {
+    "start": 433.28,
+    "end": 437.35999999999996,
+    "text": " similar to each other's spot you don't have to learn all of them and I have done the analysis on"
+  },
+  {
+    "start": 437.35999999999996,
+    "end": 443.76,
+    "text": " this there will be no job description that is requiring from you both both data breaks and snowflake"
+  },
+  {
+    "start": 443.76,
+    "end": 450.23999999999995,
+    "text": " or Azure and AWS so either the text tag of data breaks or snowflake because usually this is a big"
+  },
+  {
+    "start": 450.23999999999995,
+    "end": 454.88,
+    "text": " decision that the company makes for the whole company they either go in this direction or that"
+  },
+  {
+    "start": 454.88,
+    "end": 460.88,
+    "text": " so it is really to see a company that is utilizing both of those data platforms and to ask people"
+  },
+  {
+    "start": 460.96,
+    "end": 466.15999999999997,
+    "text": " to have those skills so with this I hope now it's clear things are based on the numbers and my"
+  },
+  {
+    "start": 466.15999999999997,
+    "end": 470.88,
+    "text": " recommendation for you is to go with the stack of data breaks all right well we're gonna of course"
+  },
+  {
+    "start": 470.88,
+    "end": 475.6,
+    "text": " we don't have only tools and data platforms we have as well data concepts that get mentioned all"
+  },
+  {
+    "start": 475.6,
+    "end": 479.84,
+    "text": " the time in the job descriptions and here I have a list of for you the first data concept that you"
+  },
+  {
+    "start": 479.84,
+    "end": 485.68,
+    "text": " have to learn is the data by planning of course we have to build that other that comes ETL and ELT"
+  },
+  {
+    "start": 485.68,
+    "end": 489.92,
+    "text": " so you have to understand what those processes means and I likely they're gonna ask you about it in"
+  },
+  {
+    "start": 489.92,
+    "end": 494.24,
+    "text": " the job interview you have as well to learn about the data modeling I'm gonna say I have met a lot"
+  },
+  {
+    "start": 494.24,
+    "end": 498.8,
+    "text": " of data engineers like most of them they don't know how to do this they never learned it they never"
+  },
+  {
+    "start": 498.8,
+    "end": 503.68,
+    "text": " done it they can only build pipeline that moves the data from lift to right and transform it but"
+  },
+  {
+    "start": 503.68,
+    "end": 508.88,
+    "text": " building an integrated data model as it is engineer they don't know it and almost 50% of the job"
+  },
+  {
+    "start": 508.88,
+    "end": 513.84,
+    "text": " descriptions asks for data modeling so it's always sad to see that engineering without data modeling"
+  },
+  {
+    "start": 513.84,
+    "end": 518.24,
+    "text": " now after that comes the data quality of course we have to build those stuff inside the data pipelines"
+  },
+  {
+    "start": 518.24,
+    "end": 523.2,
+    "text": " you have to know about concepts what are the data warehouses lake houses it comes the streaming"
+  },
+  {
+    "start": 523.2,
+    "end": 528.08,
+    "text": " the ingestions and the list is very long but those are the top things that are mentioned now"
+  },
+  {
+    "start": 528.08,
+    "end": 532.08,
+    "text": " moving on to another group where I was really interested to know what are the companies are looking"
+  },
+  {
+    "start": 532.08,
+    "end": 538.0,
+    "text": " for it's all about the AI so what are the AI skills and tools do companies ask from you as a data"
+  },
+  {
+    "start": 538.0,
+    "end": 544.88,
+    "text": " engineer the most mentioned skills are the LLMs AI agents rag and prompt engineering yes those"
+  },
+  {
+    "start": 544.88,
+    "end": 549.2,
+    "text": " numbers are really small and this surprised me to be honest because the last three years I got a"
+  },
+  {
+    "start": 549.2,
+    "end": 554.88,
+    "text": " lot of AI requirements inside my data lake house and inside the data projects not only me as well"
+  },
+  {
+    "start": 554.88,
+    "end": 560.32,
+    "text": " many other data engineers from different companies they are doing AI stuff but those numbers tells me"
+  },
+  {
+    "start": 560.32,
+    "end": 566.16,
+    "text": " something that many companies they are not there yet I told this many times companies are very"
+  },
+  {
+    "start": 566.16,
+    "end": 572.72,
+    "text": " slow in order to adapt new things and only few companies understood that we need data engineers"
+  },
+  {
+    "start": 572.72,
+    "end": 577.84,
+    "text": " mixed with AI topics if you are learning data engineer and you want to stand out the crowd add to"
+  },
+  {
+    "start": 577.84,
+    "end": 582.88,
+    "text": " it those AI skills it is a big addon that's gonna help you to stand out even if the percentage is"
+  },
+  {
+    "start": 582.88,
+    "end": 587.9200000000001,
+    "text": " very small here and of course not only AI skills that you have to learn as well we have tools yes"
+  },
+  {
+    "start": 587.9200000000001,
+    "end": 593.44,
+    "text": " companies start mentioning AI tools in the job descriptions and no surprise that cloud is number one"
+  },
+  {
+    "start": 593.44,
+    "end": 598.64,
+    "text": " here many data engineers including me now mixing cloud with data bricks in order to do projects"
+  },
+  {
+    "start": 598.64,
+    "end": 602.56,
+    "text": " and by the way my friends I partnered with datacamp for this video because timing couldn't"
+  },
+  {
+    "start": 602.56,
+    "end": 606.96,
+    "text": " not be better you just saw that the companies are actually demanding from data engineers the top three"
+  },
+  {
+    "start": 606.96,
+    "end": 611.6,
+    "text": " skills by thon is kiel spark now of course the question is where you actually learn all those"
+  },
+  {
+    "start": 611.6,
+    "end": 616.64,
+    "text": " stuff now here's the thing you remember only tiny fraction of what you passively watch but when"
+  },
+  {
+    "start": 616.64,
+    "end": 621.84,
+    "text": " you learn hands on writing the code building the real pipelines doing projects their retention"
+  },
+  {
+    "start": 621.84,
+    "end": 628.4,
+    "text": " can jump close to 80 to 90% and this exactly the mindset of datacamp they focus on real project"
+  },
+  {
+    "start": 628.4,
+    "end": 633.4399999999999,
+    "text": " and practicing now my recommendation for you is to take the data engineer in python track 14"
+  },
+  {
+    "start": 633.4399999999999,
+    "end": 638.88,
+    "text": " courses around 40 hours it's gonna walk you step by step through building the real pipeline with"
+  },
+  {
+    "start": 638.88,
+    "end": 644.56,
+    "text": " the air flow and working with real warehouses this is the daily job that we do and at the end it's"
+  },
+  {
+    "start": 644.56,
+    "end": 649.52,
+    "text": " gonna prepare you for the datacamp data engineering certificate so that you don't just learn the skills"
+  },
+  {
+    "start": 649.52,
+    "end": 654.72,
+    "text": " you can prove them the next track it's gonna be the ssia data engineer in iskiel track where you"
+  },
+  {
+    "start": 654.72,
+    "end": 660.8000000000001,
+    "text": " gonna go from basic queries all the way through the joins the window functions the database design"
+  },
+  {
+    "start": 660.8000000000001,
+    "end": 665.0400000000001,
+    "text": " everything using real business data and the third track is gonna be the big data with the"
+  },
+  {
+    "start": 665.0400000000001,
+    "end": 670.24,
+    "text": " pice pack track where you're gonna learn to process huge amount of datasets in parallel with the"
+  },
+  {
+    "start": 670.24,
+    "end": 675.84,
+    "text": " Apache spark this one gonna surprise someone can write script from someone can handle real production"
+  },
+  {
+    "start": 675.84,
+    "end": 681.28,
+    "text": " data so although things in one subscription by the way the first chapter of every course is for free"
+  },
+  {
+    "start": 681.28,
+    "end": 685.68,
+    "text": " so you can start now actually by thon track and if you want to continue you can use my link or"
+  },
+  {
+    "start": 685.68,
+    "end": 690.56,
+    "text": " the top of the description i can get to 25% discount so now let's go back all right so with that we"
+  },
+  {
+    "start": 690.56,
+    "end": 695.4399999999999,
+    "text": " have covered all the analysis about the skills part in the ads but of course knowing the skills it"
+  },
+  {
+    "start": 695.4399999999999,
+    "end": 701.04,
+    "text": " is only have the answer we have now to go to the real question which is what tasks are expected from"
+  },
+  {
+    "start": 701.04,
+    "end": 706.3199999999999,
+    "text": " you as dat engineer now usually we go to the section what you will be doing and here they can"
+  },
+  {
+    "start": 706.32,
+    "end": 712.08,
+    "text": " explain exactly what you're gonna do every day as data engineer and as well this is the most"
+  },
+  {
+    "start": 712.08,
+    "end": 717.44,
+    "text": " unsparte that comes from the data team directly to you so listen carefully to this because this is"
+  },
+  {
+    "start": 717.44,
+    "end": 721.6800000000001,
+    "text": " what you're gonna do once you enter the company now of course after analyzing all the jobs the number"
+  },
+  {
+    "start": 721.6800000000001,
+    "end": 727.44,
+    "text": " one responsibility or a task that you will be doing is building the data pipelines of course here"
+  },
+  {
+    "start": 727.44,
+    "end": 732.32,
+    "text": " there is no surprise you are hired as an engineer and you have to go and build the pipelines move it"
+  },
+  {
+    "start": 732.32,
+    "end": 738.72,
+    "text": " from the sources to the targets the second one is working across teams so even for you for dat engineer"
+  },
+  {
+    "start": 738.72,
+    "end": 743.36,
+    "text": " we don't expect you to stay behind the screen all the time because when things goes bad in your"
+  },
+  {
+    "start": 743.36,
+    "end": 748.08,
+    "text": " pipelines either you'll be contacting the source systems in order to understand what is going on"
+  },
+  {
+    "start": 748.08,
+    "end": 752.72,
+    "text": " maybe something wrong from the connections or you will be communicating with the customers the"
+  },
+  {
+    "start": 752.72,
+    "end": 758.48,
+    "text": " consumers that are using the data in their projects so they expect you from dat engineer to explain"
+  },
+  {
+    "start": 758.48,
+    "end": 764.08,
+    "text": " the situation for other people in other teams the third task is building the data quality checking"
+  },
+  {
+    "start": 764.08,
+    "end": 769.44,
+    "text": " validating making sure that people can trust the data that you are moving from left to right so"
+  },
+  {
+    "start": 769.44,
+    "end": 775.12,
+    "text": " companies expect from you not only to build a fast pipeline but as well you build it with equality"
+  },
+  {
+    "start": 775.12,
+    "end": 779.84,
+    "text": " without delivering wrong data trusting the data that you deliver it is everything about data"
+  },
+  {
+    "start": 779.84,
+    "end": 784.5600000000001,
+    "text": " engineering then that next task is about designing the architecture this is here you have to be careful"
+  },
+  {
+    "start": 784.7199999999999,
+    "end": 789.92,
+    "text": " we are not speaking about designing the enterprise architecture or to become the principle architecture"
+  },
+  {
+    "start": 789.92,
+    "end": 795.04,
+    "text": " like between multiple domains it's all about building the architecture for your system or maybe"
+  },
+  {
+    "start": 795.04,
+    "end": 800.4,
+    "text": " even for your pipelines and this is something really not easy to learn but I have good news for you"
+  },
+  {
+    "start": 800.4,
+    "end": 806.4799999999999,
+    "text": " I have done two livestreams over seven hours just talking about the data architect the data architecture"
+  },
+  {
+    "start": 806.4799999999999,
+    "end": 811.68,
+    "text": " the mindset but the way as well in the stream not only was about theory the second part I was"
+  },
+  {
+    "start": 811.68,
+    "end": 816.56,
+    "text": " designing that architecture from the scratch you can check them in the live section in the channel"
+  },
+  {
+    "start": 816.56,
+    "end": 821.1999999999999,
+    "text": " and the last task that is mentioned is mentoring the team in case we have new incomeers to the"
+  },
+  {
+    "start": 821.1999999999999,
+    "end": 826.0799999999999,
+    "text": " projects so my friends those are the top tasks that are expected from you as a data engineer but not"
+  },
+  {
+    "start": 826.0799999999999,
+    "end": 831.5999999999999,
+    "text": " only that we can go deeper the next question is what is expected from senior data engineer now I have"
+  },
+  {
+    "start": 831.5999999999999,
+    "end": 837.12,
+    "text": " done analysis between junior and senior and it looks like this now the more we go into the direction"
+  },
+  {
+    "start": 837.12,
+    "end": 841.44,
+    "text": " of senior and the lead of that engineer the building part cannot drop little bit so building"
+  },
+  {
+    "start": 841.44,
+    "end": 846.5600000000001,
+    "text": " the pipelines building the data quality can I go down but on the other side we have trade off things"
+  },
+  {
+    "start": 846.5600000000001,
+    "end": 852.0,
+    "text": " are rising like designing the architecture and mentoring the team and I'm gonna say this is not a"
+  },
+  {
+    "start": 852.0,
+    "end": 858.0,
+    "text": " big surprise as you go more to the direction of the lead to the senior the thinking part can arise"
+  },
+  {
+    "start": 858.0,
+    "end": 863.28,
+    "text": " and I'm gonna do less party work so you're gonna get more responsibility to lead others and as well"
+  },
+  {
+    "start": 863.28,
+    "end": 867.76,
+    "text": " to mentor but this is something that a lot of people still don't understand I see a lot of"
+  },
+  {
+    "start": 867.76,
+    "end": 873.04,
+    "text": " data engineers they think if you want to become a senior I have to go and learn all possible tools"
+  },
+  {
+    "start": 873.04,
+    "end": 878.3199999999999,
+    "text": " that is available at the market collect all the certificates about the cloud the data platforms"
+  },
+  {
+    "start": 878.3199999999999,
+    "end": 883.8399999999999,
+    "text": " I'm gonna be the fastest one that's gonna go and build pipelines so all those off my friends will"
+  },
+  {
+    "start": 883.8399999999999,
+    "end": 889.04,
+    "text": " not make you a senior data engineer it will just make you a fast data engineer that knows a lot"
+  },
+  {
+    "start": 889.04,
+    "end": 894.3199999999999,
+    "text": " of tools you're gonna become maybe a tool expert but a senior it's all about the thinking the"
+  },
+  {
+    "start": 894.3199999999999,
+    "end": 899.76,
+    "text": " architecture and one thing that separates seniors from juniors that they can quickly find the"
+  },
+  {
+    "start": 899.76,
+    "end": 904.9599999999999,
+    "text": " road cause issues because they have seen it a lot so if things goes really bad in one day highly"
+  },
+  {
+    "start": 904.9599999999999,
+    "end": 909.8399999999999,
+    "text": " likely the senior data engineer gonna be the one that's gonna save it am I a hero? I really can't say"
+  },
+  {
+    "start": 909.8399999999999,
+    "end": 915.4399999999999,
+    "text": " but yes now let's move on to very interesting topic it is about the salary how much do companies pay"
+  },
+  {
+    "start": 915.44,
+    "end": 920.1600000000001,
+    "text": " now I have to be clear with you most of the job ads on the world they don't mention the salary"
+  },
+  {
+    "start": 920.1600000000001,
+    "end": 925.6,
+    "text": " the money it's only in USA think in Canada as well so those numbers that now you are seeing is"
+  },
+  {
+    "start": 925.6,
+    "end": 931.2,
+    "text": " only from the US job market but still you can get an idea from it so between juniors and mid-level"
+  },
+  {
+    "start": 931.2,
+    "end": 938.72,
+    "text": " it is around 130k a senior in average it is reaching around 165k and elite that engineer it is"
+  },
+  {
+    "start": 938.72,
+    "end": 945.0400000000001,
+    "text": " easily reaching the 200k again those are the average numbers that are based on the US job markets"
+  },
+  {
+    "start": 945.04,
+    "end": 950.0799999999999,
+    "text": " now moving on to another question that we can check in the job ads which work mode do companies"
+  },
+  {
+    "start": 950.0799999999999,
+    "end": 954.88,
+    "text": " ask for so usually we have like a section about the location and the work mode now the good news"
+  },
+  {
+    "start": 954.88,
+    "end": 960.0799999999999,
+    "text": " as well for data engineers the hybrid is winning after that comes the remote very close to the office"
+  },
+  {
+    "start": 960.0799999999999,
+    "end": 964.16,
+    "text": " but again this is not enough we have to drill down in order to understand how it looks like"
+  },
+  {
+    "start": 964.16,
+    "end": 969.68,
+    "text": " between countries and cultures in USA it is packed to office so the first one is gonna be on sites"
+  },
+  {
+    "start": 969.68,
+    "end": 974.64,
+    "text": " but in Europe the situation is different for data engineers the hybrid is winning"
+  },
+  {
+    "start": 974.72,
+    "end": 979.36,
+    "text": " I know that as well from all my colleagues and as well from my last work we do hybrid work usually"
+  },
+  {
+    "start": 979.36,
+    "end": 985.1999999999999,
+    "text": " three days out of it and two days at home now moving to India situation is similar to USA it is back"
+  },
+  {
+    "start": 985.1999999999999,
+    "end": 989.92,
+    "text": " to office so data engineers have to go to the office and do their job there and very little"
+  },
+  {
+    "start": 989.92,
+    "end": 995.1999999999999,
+    "text": " percent for their full remote that engineers so yeah remote is not dead but it is not anymore"
+  },
+  {
+    "start": 995.1999999999999,
+    "end": 1001.28,
+    "text": " than normal one hybrid is becoming the normal working mode now we move to hard topic and the"
+  },
+  {
+    "start": 1001.28,
+    "end": 1006.8,
+    "text": " hard question two companies higher juniors how many years of experience they expect from them"
+  },
+  {
+    "start": 1006.8,
+    "end": 1011.92,
+    "text": " now I know this is gonna be a little bit emotional but the average year is gonna be five years"
+  },
+  {
+    "start": 1011.92,
+    "end": 1017.36,
+    "text": " and of course anything from five years that means the job market is asking for senior data engineers"
+  },
+  {
+    "start": 1017.36,
+    "end": 1022.8,
+    "text": " but again this is only an average that means we still have like companies are asking for one two"
+  },
+  {
+    "start": 1022.8,
+    "end": 1027.76,
+    "text": " three years but not as much as before and that's all because the job market now is really bad and"
+  },
+  {
+    "start": 1027.76,
+    "end": 1032.4,
+    "text": " horrible not only because of the AI and by the way just to make things clear even if they mention"
+  },
+  {
+    "start": 1032.4,
+    "end": 1037.44,
+    "text": " two or three years that doesn't mean that you cannot apply if you don't have any prior experience"
+  },
+  {
+    "start": 1037.44,
+    "end": 1042.32,
+    "text": " front of my ring just started from the scratch and became a data engineer and got hired only"
+  },
+  {
+    "start": 1042.32,
+    "end": 1047.68,
+    "text": " on one year but of course here you have to fill the gap by showing that you have done is solid project"
+  },
+  {
+    "start": 1047.68,
+    "end": 1052.32,
+    "text": " and you can explain this project perfectly in the interviews so those are the topics on the year"
+  },
+  {
+    "start": 1052.32,
+    "end": 1056.72,
+    "text": " now moving on to another question that I'm getting asked a lot in the comments do I need a degree"
+  },
+  {
+    "start": 1056.8,
+    "end": 1061.76,
+    "text": " in order to get hired are the companies are asking for degrees well this as well surprised me"
+  },
+  {
+    "start": 1061.76,
+    "end": 1067.68,
+    "text": " and I have for you here amazing news that's more half of the engineer ads are not even mentioning a"
+  },
+  {
+    "start": 1067.68,
+    "end": 1072.16,
+    "text": " degree well here I was a little bit surprised to be honest so that's why I have dig deeper into the"
+  },
+  {
+    "start": 1072.16,
+    "end": 1076.48,
+    "text": " numbers and I really double checked because I've done a lot of that engineering for three years but"
+  },
+  {
+    "start": 1076.48,
+    "end": 1082.16,
+    "text": " yeah half of them are not mentioning a degree and as well we have 25% that are required in a degree"
+  },
+  {
+    "start": 1082.24,
+    "end": 1088.16,
+    "text": " and 70% saying or equivalent experience so the door is not closed at all if you don't have that"
+  },
+  {
+    "start": 1088.16,
+    "end": 1093.2,
+    "text": " paper now let's see the names of the studies for sure we have first the computer science after that"
+  },
+  {
+    "start": 1093.2,
+    "end": 1099.1200000000001,
+    "text": " comes engineering information systems mathematics and so on now the next one about what are the"
+  },
+  {
+    "start": 1099.1200000000001,
+    "end": 1103.8400000000001,
+    "text": " certificates that are mentioned in the ads here as well the numbers are not that high we have only"
+  },
+  {
+    "start": 1103.8400000000001,
+    "end": 1110.0,
+    "text": " 7% of the ads asking for a certificate I totally understand that because as well as research for"
+  },
+  {
+    "start": 1110.0,
+    "end": 1114.72,
+    "text": " these engineers we didn't ask for one now here mostly the certificates gonna be from the"
+  },
+  {
+    "start": 1114.72,
+    "end": 1120.48,
+    "text": " platforms so for example if a company is utilizing the snowflake they can ask for snowflake certificate"
+  },
+  {
+    "start": 1120.48,
+    "end": 1125.52,
+    "text": " and same things goes for data breaks go goal Azure data engineering certificates and so on so this"
+  },
+  {
+    "start": 1125.52,
+    "end": 1130.64,
+    "text": " totally depends on the data tech stack that the company is adopting and again here my advice"
+  },
+  {
+    "start": 1130.64,
+    "end": 1134.64,
+    "text": " be careful with the certificates don't go and collect all of them is gonna be very expensive and"
+  },
+  {
+    "start": 1134.64,
+    "end": 1139.3600000000001,
+    "text": " wasting of time just pick a platform learn it stick with it and take their certificates"
+  },
+  {
+    "start": 1139.3600000000001,
+    "end": 1144.4,
+    "text": " and here the certificates it is nice to have I'm gonna say because it might help you to open the"
+  },
+  {
+    "start": 1144.4,
+    "end": 1153.2800000000002,
+    "text": " first door for the interview I will see you at the inter but in that interview it will not be the"
+  },
+  {
+    "start": 1153.2800000000002,
+    "end": 1157.8400000000001,
+    "text": " decision whether you have certificate or not to get the job it's all about how you explain things"
+  },
+  {
+    "start": 1157.8400000000001,
+    "end": 1162.0800000000002,
+    "text": " and what projects you build this is way more important all right so those are all the"
+  },
+  {
+    "start": 1162.08,
+    "end": 1166.8799999999999,
+    "text": " analyses that I have done on that job descriptions that I collected about data engineering now as"
+  },
+  {
+    "start": 1166.8799999999999,
+    "end": 1170.8,
+    "text": " I promised I'm gonna show you now the full the roadmap where we're gonna put everything together"
+  },
+  {
+    "start": 1170.8,
+    "end": 1175.1999999999998,
+    "text": " so that's we make things more clear for you so now let's have a look to this now the road for data"
+  },
+  {
+    "start": 1175.1999999999998,
+    "end": 1181.1999999999998,
+    "text": " engineering start with the basics with the two core skills that you have to learn SQL and Python yes"
+  },
+  {
+    "start": 1181.1999999999998,
+    "end": 1187.4399999999998,
+    "text": " first is scale because it is the core of everything about data and then Python and you have to master it"
+  },
+  {
+    "start": 1187.44,
+    "end": 1192.4,
+    "text": " not only learn the basics if you can't understand Python and you cannot write a clean code even if"
+  },
+  {
+    "start": 1192.4,
+    "end": 1198.48,
+    "text": " we have now AI still I don't think you can do data engineering then after the foundations comes"
+  },
+  {
+    "start": 1198.48,
+    "end": 1204.3200000000002,
+    "text": " git and cicd those are as well I'm gonna say the must for data engineering it is not nice to have"
+  },
+  {
+    "start": 1204.3200000000002,
+    "end": 1208.88,
+    "text": " the very first thing that you have to do in any data engineering project is to go and create a"
+  },
+  {
+    "start": 1208.88,
+    "end": 1213.3600000000001,
+    "text": " crash and git and if you struggle with this you will have hard time so I'm gonna say those are"
+  },
+  {
+    "start": 1213.36,
+    "end": 1218.1599999999999,
+    "text": " the basics those are the core of data engineering now after that you have to learn as well some data"
+  },
+  {
+    "start": 1218.1599999999999,
+    "end": 1224.24,
+    "text": " concepts you have to learn about what is data pipelining what is ETL ELT processes what are the data"
+  },
+  {
+    "start": 1224.24,
+    "end": 1230.24,
+    "text": " modeling techniques and how to do them how to build data quality gates inside your data pipelines"
+  },
+  {
+    "start": 1230.24,
+    "end": 1235.28,
+    "text": " what are data warehouses data lakes data lake houses and those as well are half of the questions"
+  },
+  {
+    "start": 1235.28,
+    "end": 1240.1599999999999,
+    "text": " that's gonna get asked in the interviews so it's not only about programming and tools it is as well"
+  },
+  {
+    "start": 1240.16,
+    "end": 1244.96,
+    "text": " about understanding the concept of data engineering so far everything is straightforward but now we"
+  },
+  {
+    "start": 1244.96,
+    "end": 1250.24,
+    "text": " comes to a crossroad you have to decide between those two words the two stacks snowflake and data"
+  },
+  {
+    "start": 1250.24,
+    "end": 1254.96,
+    "text": " breaks if you go to the path of the data bricks then you have to learn the whole package about data"
+  },
+  {
+    "start": 1254.96,
+    "end": 1260.24,
+    "text": " engineering inside data bricks the workflows the schedule the data pipelines the monitoring and as"
+  },
+  {
+    "start": 1260.24,
+    "end": 1265.3600000000001,
+    "text": " well you have to learn about spark and pi spark and after mastering data breaks through the spark"
+  },
+  {
+    "start": 1265.36,
+    "end": 1270.08,
+    "text": " then you have to learn about the clouds I'm gonna say you don't need your deep knowledge about"
+  },
+  {
+    "start": 1270.08,
+    "end": 1274.8799999999999,
+    "text": " Azure or WS just learn the fundamentals and this can be more than enough but now if you go to"
+  },
+  {
+    "start": 1274.8799999999999,
+    "end": 1279.12,
+    "text": " the snowflake path of course you have to learn about the platform snowflake but not only that you"
+  },
+  {
+    "start": 1279.12,
+    "end": 1283.6799999999998,
+    "text": " have to learn as well other tools and platforms like the airflow in order to do the scheduling and"
+  },
+  {
+    "start": 1283.6799999999998,
+    "end": 1288.3999999999999,
+    "text": " the orchestration you have to learn as well about the dbt in order to do the data transformations"
+  },
+  {
+    "start": 1288.3999999999999,
+    "end": 1293.52,
+    "text": " on top of snowflake and then of course as well comes the cloud after the data platforms and here"
+  },
+  {
+    "start": 1293.52,
+    "end": 1298.16,
+    "text": " I'm gonna say if you are doing in this path then stick with the AWS and now after all those tools"
+  },
+  {
+    "start": 1298.16,
+    "end": 1303.76,
+    "text": " and platforms both path actually ends at the same place you have to do one full data engineering"
+  },
+  {
+    "start": 1303.76,
+    "end": 1309.12,
+    "text": " project end to end so it starts with the row data and you build a pipeline that gonna move it"
+  },
+  {
+    "start": 1309.12,
+    "end": 1315.28,
+    "text": " from one layer to another until the data is completely transformed module I ready for analytics"
+  },
+  {
+    "start": 1315.28,
+    "end": 1320.96,
+    "text": " here my recommendation for you don't rush it take your time build it as like your baby this one"
+  },
+  {
+    "start": 1320.96,
+    "end": 1326.96,
+    "text": " might get you hired so that means it should be well documented clean code and don't take like toy"
+  },
+  {
+    "start": 1326.96,
+    "end": 1332.88,
+    "text": " data set take a real data set and clean it struggle they are just many benefits of doing such a project"
+  },
+  {
+    "start": 1332.88,
+    "end": 1336.88,
+    "text": " they're really learning gonna happen here because of the struggle and you can have an amazing story"
+  },
+  {
+    "start": 1336.88,
+    "end": 1341.68,
+    "text": " to tell during the interview now after this project I'm gonna say you are ready to start applying for"
+  },
+  {
+    "start": 1341.68,
+    "end": 1347.6000000000001,
+    "text": " jobs but if you are struggling then I have like another standout group for you things like Kafka"
+  },
+  {
+    "start": 1347.6799999999998,
+    "end": 1353.4399999999998,
+    "text": " Terraform but only the basics don't you dive and as well we're gonna add AI skills this gonna be a"
+  },
+  {
+    "start": 1353.4399999999998,
+    "end": 1359.76,
+    "text": " real standout the crowd because if you learn how to build a pipeline using an AI how to build a rag how"
+  },
+  {
+    "start": 1359.76,
+    "end": 1365.6,
+    "text": " to use AI agents and clothes in order to optimize let's say your projects they are not that hard but"
+  },
+  {
+    "start": 1365.6,
+    "end": 1370.1599999999999,
+    "text": " if you add it as well to your portfolio you can really stand out all right friends so this is the"
+  },
+  {
+    "start": 1370.1599999999999,
+    "end": 1375.76,
+    "text": " four road map to become a data engineer but this time using facts and data that have been collecting"
+  },
+  {
+    "start": 1375.84,
+    "end": 1380.64,
+    "text": " from the data job for you so those are my results my analysis of course if you are interested"
+  },
+  {
+    "start": 1380.64,
+    "end": 1386.16,
+    "text": " about the result of other roles like the edit analyst we have already done that next is AI engineering"
+  },
+  {
+    "start": 1386.16,
+    "end": 1391.2,
+    "text": " and data science if you enjoyed this type of videos then support the channel by subscribing liking"
+  },
+  {
+    "start": 1391.2,
+    "end": 1395.52,
+    "text": " and commenting and order to reach nice people like you if you still here thank you so much for"
+  },
+  {
+    "start": 1395.52,
+    "end": 1404.8799999999999,
+    "text": " watching and I'm gonna see you in the next video bye bye"
+  }
+]
