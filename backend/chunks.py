@@ -6,7 +6,6 @@ with open("transcripts/transcript.json","r", encoding="utf-8") as f:
 
 
 chunks = []
-
 current_text = []
 chunk_start = None
 chunk_end = None
