@@ -55,13 +55,13 @@ messages = [
 ]
 
 response = groq_client.chat.completions.create(
-    model= groq_model, messages=messages
+    model= groq_model, messages=messages, stream=True
 )
 
 
-answer = response.choices[0].message.content
+for chunk in response:
+    if chunk.choices[0].delta.content is not None:
+        print(chunk.choices[0].delta.content, end="", flush=True)
 
-print("\nAnswer:")
 
-print(answer)
 
