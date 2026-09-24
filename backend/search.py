@@ -24,13 +24,16 @@ question_embedding = model.encode(question)
 results = client.query_points(
     collection_name = "youtube_chunks",
     query= question_embedding.tolist(),
-    limit=5
+    limit=10
 )
 
 context = ""
 
 for result in results.points:
-    context += result.payload["text"] + "\n"
+    # print({result.payload["start"]} - {result.payload["end"]})
+    context += f"""
+    Timestamp: {result.payload["start"]} - {result.payload["end"]}
+    Text: {result.payload["text"]}"""
     # print("Result")
     # print("Score:", result.score)
     # print("Text:", result.payload["text"])
@@ -45,7 +48,7 @@ groq_model = "openai/gpt-oss-120b"
 messages = [
     {
       "role": "system",
-      "content": "Answer the user's question using only the provided video context."
+      "content": "If the context does not contain enough information to answer the question, say so. Do not make up information."
     },
 
     {
@@ -64,4 +67,14 @@ for chunk in response:
         print(chunk.choices[0].delta.content, end="", flush=True)
 
 
+for result in results.points[:3]:
+    start = int(result.payload["start"])
 
+    minutes = start//60
+    seconds = start % 60
+
+    youtube_url = (
+       f"https://www.youtube.com/watch?v=kIk8tj0rbo0&t={start}" 
+    )
+
+    print(f"{minutes}:{seconds:02d} - {youtube_url}")

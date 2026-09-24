@@ -5,9 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "fastapi>=0.141.1",
     "groq>=1.7.0",
     "openai-whisper>=20250625",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "qdrant-client>=1.19.1",
     "sentence-transformers>=6.0.1",
     "torch>=2.14.0",
+    "uvicorn>=0.53.0",
     "yt-dlp>=2026.8.19",
 ]
